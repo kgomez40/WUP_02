@@ -61,9 +61,10 @@ This graph shows that c52 is higher in vitamin C content than is c39.
 ```{r}
 t.test(VitC~Cult,data=veggy)
 ```
-
-
+The p-value is 0.00000003405. It is so small that I reject $H_0$. There is a difference in Vic C content based on cult technique. Therefore cultivation method c52 is better then c39.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The original question was, is there a difference in average vit C between c39 and c52 cultivation methods? Based on the t-test we found that there is a significant difference in c52 and c39. We found that c52 produces more vitamin C than c39.
